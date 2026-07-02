@@ -1,0 +1,8 @@
+windows-server-2025-dod-hardening/
+├── README.md
+├── WS2025-DoD-STIG-Hardening.ps1
+├── .gitignore
+└── screenshots/
+    ├── password-policy-verified.png
+    ├── firewall-policy-verified.png
+    └── registry-error-troubleshoot.png
