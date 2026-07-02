@@ -12,10 +12,9 @@ This project documents the manual and scripted application of DISA STIG security
 
 | Component | Details |
 |---|---|
-| Hypervisor | VirtualBox |
 | Target OS | Windows Server 2025 Standard |
 | Monitoring | Wazuh SIEM (Rocky Linux 9) |
-| Domain | Lab AD domain (Windows Server 2022 DC) |
+| Domain | Lab AD domain (Windows Server 2025 DC) |
 | Network | Internal NAT / Host-Only |
 
 ---
@@ -89,4 +88,3 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 - ✅ Wazuh SIEM — Rocky Linux 9, agents on all endpoints
 - ✅ OpenSCAP — RHEL9 STIG baseline: 168 pass / 266 fail (pre-remediation)
 - ✅ Windows Server 2025 — STIG hardening applied (this repo)
-- 🔄 Ansible — STIG automation playbooks (in progress)
